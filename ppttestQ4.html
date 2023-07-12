@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+
+    </style>
+</head>
+<body>
+    
+    <nav>
+        <div class="logo">
+          <a href="#">Logo</a>
+        </div>
+        <ul class="nav-links">
+          <li><a href="#">Home</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Services</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+        <div class="burger">
+          <div class="line"></div>
+          <div class="line"></div>
+          <div class="line"></div>
+        </div>
+      </nav>
+    <script>
+const navLinks = document.querySelector('.nav-links');
+const burger = document.querySelector('.burger');
+const lines = document.querySelectorAll('.burger div');
+
+
+burger.addEventListener('click', () => {
+  navLinks.classList.toggle('nav-active');
+
+  
+  lines.forEach((line, index) => {
+    line.classList.toggle(`line${index + 1}-active`);
+  });
+});
+
+
+    </script>
+</body>
+</html>
