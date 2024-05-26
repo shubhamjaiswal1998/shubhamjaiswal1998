@@ -1,8 +1,8 @@
 - 👋 Hi, I’m shubham jayasval
 - 👀 I’m interested in computer science
 - 🌱 I’m currently learning reactjs
-- 💞️ I’m looking to collaborate on ...
-- 📫 How to reach me ...
+- 💞️ 
+- 📫 
 
 <!---
 shubhamjaiswal1998/shubhamjaiswal1998 is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
