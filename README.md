@@ -1,4 +1,4 @@
-- 👋 Hi, I’m shubham jayasval
+- 👋 Hi, I’m shubham jaiswal
 - 👀 I’m interested in computer science
 - 🌱 I’m currently learning reactjs
 - 💞️ 
